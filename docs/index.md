@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization Notes"
 author: "Abhijit Dasgupta"
-date: "Last updated: 2022-02-24"
+date: "2022-02-24"
 site: bookdown::bookdown_site
 documentclass: book
 #bibliography: [book.bib, packages.bib]

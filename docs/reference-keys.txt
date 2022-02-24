@@ -1,0 +1,6 @@
+setting-up-computational-environments
+setting-up-r
+setting-up-python
+the-anaconda-distribution
+poetry
+pip-venv
