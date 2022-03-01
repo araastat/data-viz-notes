@@ -1,0 +1,10 @@
+# Static visualizations: matplotlib
+
+```{r, child='sections/matplotlib.Rmd'}
+
+```
+
+```{r, child='sections/seaborn.Rmd'}
+
+```
+

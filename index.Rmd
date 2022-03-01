@@ -15,6 +15,8 @@ csl: chicago-fullnote-bibliography.csl
 
 # Data Visualization Notes {-}
 
+This is a work in progress. Last updated: `r format(Sys.Date(), '%Y-%b-%d')`
+
 ## Preamble {-}
 
 This online book is a compilation of lecture notes and supplements used in various data visualization courses I have taught over the years. The primary material comes from the materials in [ANLY 503](https://anly503.netlify.app) @ Georgetown University, co-developed with [Marck Vaisman](https://www.github.com/wahalulu) over several years. Other resources include [BIOF 439](https://www.araastat.com/BIOF439) and [BIOF 440](https://www.araastat.com/BIOF440), courses I taught at FAES @ NIH.

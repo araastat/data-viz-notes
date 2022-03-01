@@ -1,0 +1,1 @@
+# Static visualizations: ggplot2

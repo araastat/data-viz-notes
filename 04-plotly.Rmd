@@ -1,0 +1,25 @@
+# Dynamic visualizations: plotly
+
+```{r, include=FALSE}
+pacman::p_load(tidyverse)
+theme_set(theme_classic() + theme(text = element_text(family='Roboto Slab')))
+```
+
+## The R interface
+
+```{r, child = 'sections/plot_ly.Rmd'}
+
+```
+
+
+
+
+```{r, child = 'sections/ggplotly.Rmd'}
+
+```
+
+
+
+
+
+## The Python interface

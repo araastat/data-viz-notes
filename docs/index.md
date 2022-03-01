@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization Notes"
 author: "Abhijit Dasgupta"
-date: "2022-02-24"
+date: "2022-03-01"
 site: bookdown::bookdown_site
 documentclass: book
 #bibliography: [book.bib, packages.bib]
@@ -14,6 +14,8 @@ csl: chicago-fullnote-bibliography.csl
 ---
 
 # Data Visualization Notes {-}
+
+This is a work in progress. Last updated: 2022-Mar-01
 
 ## Preamble {-}
 

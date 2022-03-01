@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 1 Setting up computational environments | Data Visualization Notes</title>
+<title>Chapter 2 Setting up computational environments | Data Visualization Notes</title>
 <meta name="author" content="Abhijit Dasgupta">
-<meta name="description" content="1.1 Setting up R   1.2 Setting up Python  1.2.1 The Anaconda distribution   1.2.2 poetry   1.2.3 pip + venv">
+<meta name="description" content="2.1 Setting up R   2.2 Setting up Python  2.2.1 The Anaconda distribution   2.2.2 poetry   2.2.3 pip + venv">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 1 Setting up computational environments | Data Visualization Notes">
+<meta property="og:title" content="Chapter 2 Setting up computational environments | Data Visualization Notes">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://www.araastat.com/data-viz-notes/setting-up-computational-environments.html">
-<meta property="og:description" content="1.1 Setting up R   1.2 Setting up Python  1.2.1 The Anaconda distribution   1.2.2 poetry   1.2.3 pip + venv">
+<meta property="og:description" content="2.1 Setting up R   2.2 Setting up Python  2.2.1 The Anaconda distribution   2.2.2 poetry   2.2.3 pip + venv">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 1 Setting up computational environments | Data Visualization Notes">
-<meta name="twitter:description" content="1.1 Setting up R   1.2 Setting up Python  1.2.1 The Anaconda distribution   1.2.2 poetry   1.2.3 pip + venv">
+<meta name="twitter:title" content="Chapter 2 Setting up computational environments | Data Visualization Notes">
+<meta name="twitter:description" content="2.1 Setting up R   2.2 Setting up Python  2.2.1 The Anaconda distribution   2.2.2 poetry   2.2.3 pip + venv">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -40,8 +40,8 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html">Preamble</a></li>
-<li><a class="active" href="setting-up-computational-environments.html"><span class="header-section-number">1</span> Setting up computational environments</a></li>
+<li><a class="" href="index.html"><span class="header-section-number">1</span> Data Visualization Notes</a></li>
+<li><a class="active" href="setting-up-computational-environments.html"><span class="header-section-number">2</span> Setting up computational environments</a></li>
 </ul>
 
         <div class="book-extra">
@@ -49,58 +49,59 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="setting-up-computational-environments" class="section level1" number="1">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="setting-up-computational-environments" class="section level1" number="2">
 <h1>
-<span class="header-section-number">1</span> Setting up computational environments<a class="anchor" aria-label="anchor" href="#setting-up-computational-environments"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2</span> Setting up computational environments<a class="anchor" aria-label="anchor" href="#setting-up-computational-environments"><i class="fas fa-link"></i></a>
 </h1>
-<div id="setting-up-r" class="section level2" number="1.1">
+<div id="setting-up-r" class="section level2" number="2.1">
 <h2>
-<span class="header-section-number">1.1</span> Setting up R<a class="anchor" aria-label="anchor" href="#setting-up-r"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.1</span> Setting up R<a class="anchor" aria-label="anchor" href="#setting-up-r"><i class="fas fa-link"></i></a>
 </h2>
 </div>
-<div id="setting-up-python" class="section level2" number="1.2">
+<div id="setting-up-python" class="section level2" number="2.2">
 <h2>
-<span class="header-section-number">1.2</span> Setting up Python<a class="anchor" aria-label="anchor" href="#setting-up-python"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.2</span> Setting up Python<a class="anchor" aria-label="anchor" href="#setting-up-python"><i class="fas fa-link"></i></a>
 </h2>
-<div id="the-anaconda-distribution" class="section level3" number="1.2.1">
+<div id="the-anaconda-distribution" class="section level3" number="2.2.1">
 <h3>
-<span class="header-section-number">1.2.1</span> The Anaconda distribution<a class="anchor" aria-label="anchor" href="#the-anaconda-distribution"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.2.1</span> The Anaconda distribution<a class="anchor" aria-label="anchor" href="#the-anaconda-distribution"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="poetry" class="section level3" number="1.2.2">
+<div id="poetry" class="section level3" number="2.2.2">
 <h3>
-<span class="header-section-number">1.2.2</span> poetry<a class="anchor" aria-label="anchor" href="#poetry"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.2.2</span> poetry<a class="anchor" aria-label="anchor" href="#poetry"><i class="fas fa-link"></i></a>
 </h3>
 </div>
-<div id="pip-venv" class="section level3" number="1.2.3">
+<div id="pip-venv" class="section level3" number="2.2.3">
 <h3>
-<span class="header-section-number">1.2.3</span> pip + venv<a class="anchor" aria-label="anchor" href="#pip-venv"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.2.3</span> pip + venv<a class="anchor" aria-label="anchor" href="#pip-venv"><i class="fas fa-link"></i></a>
 </h3>
+
 
 </div>
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="index.html">Preamble</a></div>
+<div class="prev"><a href="index.html"><span class="header-section-number">1</span> Data Visualization Notes</a></div>
 <div class="empty"></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#setting-up-computational-environments"><span class="header-section-number">1</span> Setting up computational environments</a></li>
-<li><a class="nav-link" href="#setting-up-r"><span class="header-section-number">1.1</span> Setting up R</a></li>
+<li><a class="nav-link" href="#setting-up-computational-environments"><span class="header-section-number">2</span> Setting up computational environments</a></li>
+<li><a class="nav-link" href="#setting-up-r"><span class="header-section-number">2.1</span> Setting up R</a></li>
 <li>
-<a class="nav-link" href="#setting-up-python"><span class="header-section-number">1.2</span> Setting up Python</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#the-anaconda-distribution"><span class="header-section-number">1.2.1</span> The Anaconda distribution</a></li>
-<li><a class="nav-link" href="#poetry"><span class="header-section-number">1.2.2</span> poetry</a></li>
-<li><a class="nav-link" href="#pip-venv"><span class="header-section-number">1.2.3</span> pip + venv</a></li>
+<a class="nav-link" href="#setting-up-python"><span class="header-section-number">2.2</span> Setting up Python</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-anaconda-distribution"><span class="header-section-number">2.2.1</span> The Anaconda distribution</a></li>
+<li><a class="nav-link" href="#poetry"><span class="header-section-number">2.2.2</span> poetry</a></li>
+<li><a class="nav-link" href="#pip-venv"><span class="header-section-number">2.2.3</span> pip + venv</a></li>
 </ul>
 </li>
 </ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/araastat/data-viz-notes/blob/master/01-setup.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/araastat/data-viz-notes/edit/master/01-setup.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+<li><a id="book-source" href="https://github.com/araastat/data-viz-notes/blob/master/index.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/araastat/data-viz-notes/edit/master/index.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>

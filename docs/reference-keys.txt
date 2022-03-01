@@ -1,0 +1,8 @@
+static-visualizations-ggplot2
+static-visualizations-matplotlib
+dynamic-visualizations-plotly
+the-r-interface
+ggplotly
+tooltips
+the-python-interface
+dynamic-visualizations-altair
